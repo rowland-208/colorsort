@@ -5,6 +5,8 @@ You can use colorsort to:
 * Reduce the number of colors in a color vector while maintaining the overall pallete
 * Sort the colors in a color vector
 
+For an interactive demo check out [this jupyter notebook](https://github.com/rowland-208/colorsort/blob/main/etc/examples.ipynb).
+
 Example converting image into color vector:
 
     >>> import colorsort as csort
