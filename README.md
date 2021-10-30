@@ -17,7 +17,7 @@ Example converting image into color vector:
     >>> image_rgb = np.random.randint(0,255,image_shape).astype(np.uint8)
     >>> vec_rgb = csort.image_to_vec(image_rgb)
 
-Casting the array to unint8 is crucial.
+Casting the array to uint8 is crucial.
 Colorsort uses opencv under the hood and expects uint8.
 
 Example reducing the number of colors in a color vector
